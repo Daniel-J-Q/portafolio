@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portafolio.css">
+    <script src="https://kit.fontawesome.com/14c3c50331.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <div class="izquierda">
+            <div class="logo">
+                <h1>Jorge D.Q</h1>
+            </div>
+            <div class="informacion-personal">
+                <h2>Desarrollador Front-end</h2>
+
+                <div class="contenedor-movil">
+                <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars"></i></button>
+                <nav class="nav" id="nav">
+                  <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-xmark"></i></button>
+                    <ul class="nav-list">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#Conocimientos">Conocimientos</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#asunto">Contacto</a></li>
+                    </ul>
+
+             </nav>
+            </div>      
+           <div class="redes">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:jorgedaquintero@hotmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!--  -->
+
+        <!--  -->
+
+        <div class="derecha">
+            <div class="no-se">
+                <p class="title" id="inicio">Datos Personales</p>
+                <ul class="datos">
+                    <li><strong>Nombre:</strong> Jorge Daniel Quintero</li>
+                    <li><strong>Email:</strong> JorgeDaQuintero@hotmail.com</li>
+                </ul>
+
+                <p class="title">Sobre mí</p>
+                <p class="info">Me llamo Jorge Daniel Quintero, soy argentino y provengo de la provincia de Buenos Aires.
+                    Comencé a interesarme en la programación a finales de 2022 y decidí aprender HTML, CSS y Java de
+                    forma autodidacta.
+
+                </p>
+                <div>
+                    <p id="Conocimientos" class="title">Conocimientos</p>
+                    <section class="Conocimientos">
+                        <!-- Aquí puedes agregar tus publicaciones -->
+                        <div>
+                            <a href="https://www.freecodecamp.org/certification/JorgeDaniel/responsive-web-design"
+                                target="_blank">
+                                <div class="box ">
+                                    <img src="./img/icon-html.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.freecodecamp.org/certification/JorgeDaniel/responsive-web-design"
+                                target="_blank">
+                                <div class="box ">
+                                    <img src="./img/icon-css.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.freecodecamp.org/certification/JorgeDaniel/javascript-algorithms-and-data-structures"
+                                target="_blank">
+                                <div class="box">
+                                    <img src="./img/icon-js.png" alt="">
+
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com" target="_blank">
+                                <div class="box">
+                                    <img src="./img/icon-github-hab.png" alt="">
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </section>
+                </div>
+                <div>
+                    <p class="title">Proyectos</p>
+
+                    
+    <!-- proyecto -->
+    <div class="container-proyecto" id="proyectos">
+  
+          <!-- Aquí puedes agregar tus proyectos -->
+  
+          <div class="proyectos">
+            
+            <div class="proyecto-total">
+              <div class="proyecto-img">
+                <a href=""><img src="https://recasens.com/wp-content/uploads/2017/02/000_blanco_blanco_7000.jpg"></a>
+              </div>
+              <div class="box-proyecto">
+                <div>
+                <h3>Categorias</h3>
+                <p>css + js</p>
+                </div>
+                <a href="" target="_blank" class="button-codigo"><i class="fab fa-github"></i></a>
+              </div>
+
+            </div>
+  
+              <div class="proyecto-total">
+                <div class="proyecto-img">
+                  <a href=""><img src="./img/tienda.png"></a>
+                </div>
+                <div class="box-proyecto">
+                    <div>
+                        <h3>Tienda</h3>
+                        <p>css + js</p>
+                    </div>                
+                    <a href="" target="_blank" class="button-codigo"><i class="fab fa-github"></i></a>
+              </div>
+
+              </div>
+  
+          </div>
+  
+      </div>
+                </div>
+                <div>
+                    <!-- contacto -->
+                    <section id="contacto" class="contacto">
+                        <p class="title">Contacto</p>
+                        <form>
+                            <div class="form-group">
+
+                                <input type="text" name="name" class="form-control" id="asunto" placeholder="Tu Nombre"
+                                    required>
+                            </div>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo"
+                                    required>
+                            </div>
+                            <div class="form-group">
+
+                                <textarea class="form-control" name="message" rows="15" placeholder="Tu Mensaje"
+                                    required></textarea>
+                            </div>
+
+                            <input class="button" type="submit" value="Enviar mensaje">
+
+                        </form>
+                    </section>
+                </div>
+            </div>
+            <div class="redes">
+                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="" target="_blank"><i class="far fa-envelope"></i></a>
+                <a href="" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
