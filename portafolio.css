@@ -3,8 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Wix Madefor Text', sans-serif;
-    
+    font-family: 'Wix Madefor Text', sans-serif; 
 }
 :root{
 --colorceleste: #8ECAE6;
@@ -18,7 +17,6 @@ body {
 
 .izquierda {
     background-color: var(--colorAzul);
-
 }
 
 .logo h1 {
@@ -91,15 +89,12 @@ color: var(--colorBlanco);
     letter-spacing: 2px;
     padding-left: 10px;
   }
-  
 
 /* Lado derecho */
 
 .derecha {
 background-color: #fff;
 }
-
-
 
 .title{
     font-size: 22px;
@@ -145,7 +140,6 @@ background-color: #fff;
     margin-bottom: 10px;
 }
 
-
 /* conocimientos */
 .Conocimientos{
 gap: 20px;
@@ -170,10 +164,6 @@ border-radius: 5px;
   text-decoration: none;
 }
 
-
-
-
-
 /* contacto */
 
 #contacto form {
@@ -185,7 +175,6 @@ border-radius: 5px;
   border-radius: 5px;
 }
 
-
 .form-group {
   margin-bottom: 20px;
   padding-right: 20px;
@@ -193,8 +182,6 @@ border-radius: 5px;
   flex-direction: column;
   margin-bottom: 20px;
 }
-
-
 
 .form-group input,
 .form-group textarea {
@@ -205,7 +192,6 @@ border-radius: 5px;
   border: none;
   outline: none;
 }
-
 
 .button[type="submit"] {
   background-color: #116DFF;
@@ -235,7 +221,6 @@ margin-bottom: 10px;
     transition: 0.5s;
   }
   
-  
   .fa-github:hover{
     background-color: #88498F;
     transition: 0.5s;
@@ -243,6 +228,11 @@ margin-bottom: 10px;
   
   .fa-envelope:hover{
     background-color: #8ECAE6;
+    transition: 0.5s;
+  }
+
+  .fa-laptop:hover {
+    background-color: #70A7FF; 
     transition: 0.5s;
   }
 
@@ -257,14 +247,17 @@ margin-bottom: 10px;
       padding-top: 30px;
       }
   
-
-  
       .container-box h4{
       padding: 30px 200px;
       color: #fff;
       }
   
-      .button-codigo{
+       .boton-codigo{
+       display: flex;
+       gap: 10px;
+       }
+
+      .button-codigo i{
         text-decoration: none;
         font-size: 18px;
         height: 30px;
@@ -275,26 +268,15 @@ margin-bottom: 10px;
         color: var(--colorNegro);
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-        transition: 0.5s;
         margin-bottom: 30px;
       }
-  
-      .button-codigo:hover{
-      background-color: #88498F;
-      transition: 0.5s;
-      }
 
-
-      
       .abrir-menu,
       .cerrar-menu {
         display: none;
       }
       
 @media screen and (min-width: 550px) {
-
-
-
    .contenedor {
      display: flex;
    }
@@ -303,7 +285,6 @@ margin-bottom: 10px;
       width: 50%;
       position: fixed;
   }
-  
   
   .derecha {
     flex: 1;
@@ -317,7 +298,6 @@ margin-bottom: 10px;
 
   .no-se{
     padding: 10px 0px 60px 60px;
-    
     }
 
     .Conocimientos{
@@ -345,15 +325,11 @@ margin-bottom: 10px;
         align-items: center;
         justify-content: center;
         text-align: center;
-  
         width: 20rem;
         height: 10rem;
         flex-direction: column;
       }
-
-
 }
-
 
 @media screen and (max-width: 550px){
 
@@ -361,7 +337,7 @@ margin-bottom: 10px;
   .contenedor-movil{
     position: fixed;
     background-color: var(--colorAzul);
-    width: 100%;
+    border-radius: 0px 0px 5px 0px;
     left: 0;
     top: 0;
   }
@@ -416,7 +392,6 @@ margin-bottom: 10px;
     color: var(--colorBlanco);
   }
 
-  
   .nav {
     opacity: 0;
     visibility: hidden;
@@ -437,5 +412,4 @@ margin-bottom: 10px;
     opacity: 1;
     visibility: visible;
   }
-
 }
